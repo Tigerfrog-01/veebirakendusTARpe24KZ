@@ -1,0 +1,49 @@
+
+
+
+
+
+h1{}
+header, footer{
+
+    font-family: "Rage Italic";
+    font-size: large;
+    width: 60%;
+    background-color: forestgreen;
+    color: black;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 1%;
+}
+nav {
+
+    display: inline-block;
+    width: 100%;
+    border-radius: 15px;
+}
+main{
+
+    margin: 50px;
+    padding: 1%;
+
+
+}
+nav li
+{
+    float: left;
+    padding: 1%;
+
+}
+nav a:hover
+{
+    background-color: grey;
+}
+nav li a
+{
+    text-decoration: none;
+    font-size: large;
+    border-right: solid grey;
+    border-left:1pt solid grey;
+    border-bottom: 1pt solid grey;
+    border-top: 1pt solid grey;
+}
