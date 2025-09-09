@@ -1,0 +1,55 @@
+/***************table id= lihtne***********/
+#lihtne{
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    border-collapse: collapse; /*üks joon borderis*/
+}
+#lihtne td{
+    border: 1px solid black;
+    text-align: center;
+}
+#lihtne tr:nth-child(1) td:nth-child(1){ /*Esimene rida*/
+
+    background-color: orange;
+}
+#lihtne tr:nth-child(1) td:nth-child(2){ /*Esimene rida 2 lahter*/
+
+    background-color: yellow;
+}
+#lihtne tr:nth-child(2) td:nth-child(1){ /*Esimene rida*/
+
+    background-color: yellow;
+}
+#lihtne tr:nth-child(2) td:nth-child(2){ /*Esimene rida*/
+
+    background-color: orange;
+}
+
+
+
+
+
+#keeruline1{
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    border-collapse: collapse; /*üks joon borderis*/
+}
+#keeruline1 td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+#keeruline2{
+    width: 40%;
+    border: 1px solid black;
+    height: 200px;
+    border-collapse: collapse; /*üks joon borderis*/
+}
+#keeruline2 td{
+    border: 1px solid black;
+    text-align: center;
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelid HTML/CSS kujundusega></title>
+
+  <link rel="stylesheet" href="tabelStyle.css">
+
+
+
+
+
+
+</head>
+<body>
+
+<h1> Tabelid </h1>
+
+<table id="lihtne">
+<caption>Lihtne värvitud tabel</caption>
+  <!--1.rida-->
+<tr>
+
+  <td>A</td>
+
+  <td>B</td>
+
+</tr>
+  <!--2.rida-->
+  <tr>
+
+    <td>C</td>
+
+    <td>D</td>
+
+  </tr>
+
+</table>
+
+<!--natuke keerulisem-->
+<table id="keeruline1">
+  <caption>Natuke keerulisem tabel 1</caption>
+  <!--1.rida-->
+  <tr>
+
+    <!--rowspan ühendab 2 tabelit-->
+
+    <td rowspan="3">A</td>
+
+    <td>B</td>
+
+  </tr>
+  <!--2.rida-->
+  <tr>
+
+    <td>C</td>
+
+
+  </tr>
+
+</table>
+
+<table id="keeruline2">
+  <caption>keeruline tabel 2</caption>
+  <!--1.rida-->
+  <tr>
+
+    <td>A</td>
+
+    <td colspan="3">B</td>
+
+  </tr>
+  <!--2.rida-->
+  <tr>
+
+    <td colspan="2">C</td>
+
+    <td rowspan="3">D</td>
+
+    <td rowspan="3">E</td>
+
+  </tr>
+
+  <tr>
+
+    <td rowspawn="2">F</td>
+
+    <td>G</td>
+
+  <tr>
+
+    <td colspan="2 ">I</td>
+
+
+
+  </tr>
+
+  </tr>
+
+</table>
+</body>
+</html>
