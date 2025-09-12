@@ -1,0 +1,203 @@
+
+h1{}
+header, footer{
+
+    font-family: "Rage Italic";
+    font-size: large;
+    width: 100%;
+    background-color: forestgreen;
+    color: black;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 1%;
+}
+footer{
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+
+}
+nav ul{
+    list-style-type: none;
+    text-align: center; /*teksti joondamine keskel*/
+    margin: 2%;
+    padding: 0;
+    background-color: darksalmon;
+}
+nav li {
+    float: left;
+    padding: 1%;
+}
+main {
+    margin: 50px;
+    padding:1%;
+}
+nav a:hover{ /*link fookuses*/
+    background-color: grey;
+}
+nav li a{
+    font-family: Georgia;
+    font-size: large;
+    text-decoration: none;
+    border-right: 1pt solid grey;
+    border-left: 1pt solid grey;
+    border-radius: 120px;
+    padding: 10px;
+}
+
+
+
+section#Photo
+{
+    display: inline-block;
+    width: 50%;
+    border-right: 1pt solid #6aab73;
+    border-bottom: 1pt solid #6aab73;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
+
+}
+section#Photo h2 {
+
+    text-align: center;
+    background-color: gray;
+    border-radius: 60px;
+    padding: 2%;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+    section#Photo1 {
+        display: inline-block;
+        width: 50%;
+        border-right: 1pt solid #6aab73;
+        border-bottom: 1pt solid #6aab73;
+        border-radius: 60px;
+        padding: 2%;
+        margin-top: 10px;
+
+    }
+
+    section#Photo1 h2 {
+
+        text-align: center;
+        background-color: gray;
+        border-radius: 60px;
+        padding: 2%;
+        font-weight: bold;
+        font-variant: small-caps;
+
+    }
+
+    section#Photo2 {
+        display: inline-block;
+        width: 50%;
+        border-right: 1pt solid #6aab73;
+        border-bottom: 1pt solid #6aab73;
+        border-radius: 60px;
+        padding: 2%;
+        margin-top: 10px;
+
+    }
+
+    section#Photo2 h2 {
+
+        text-align: center;
+        background-color: gray;
+        border-radius: 60px;
+        padding: 2%;
+        font-weight: bold;
+        font-variant: small-caps;
+
+    }
+
+    section#Photo3 {
+        display: inline-block;
+        width: 50%;
+        border-right: 1pt solid #6aab73;
+        border-bottom: 1pt solid #6aab73;
+        border-radius: 60px;
+        padding: 2%;
+        margin-top: 10px;
+
+    }
+
+    section#Photo3 h2 {
+
+        text-align: center;
+        background-color: gray;
+        border-radius: 60px;
+        padding: 2%;
+        font-weight: bold;
+        font-variant: small-caps;
+
+    }
+
+    section#Photo4 {
+        display: inline-block;
+        width: 50%;
+        border-right: 1pt solid #6aab73;
+        border-bottom: 1pt solid #6aab73;
+        border-radius: 60px;
+        padding: 2%;
+        margin-top: 10px;
+
+    }
+
+    section#Photo4 h2 {
+
+        text-align: center;
+        background-color: gray;
+        border-radius: 60px;
+        padding: 2%;
+        font-weight: bold;
+        font-variant: small-caps;
+
+    }
+
+    section#Photo5 {
+        display: inline-block;
+        width: 50%;
+        border-right: 1pt solid #6aab73;
+        border-bottom: 1pt solid #6aab73;
+        border-radius: 60px;
+        padding: 2%;
+        margin-top: 10px;
+
+    }
+
+    section#Photo5 h2 {
+
+        text-align: center;
+        background-color: gray;
+        border-radius: 60px;
+        padding: 2%;
+        font-weight: bold;
+        font-variant: small-caps;
+
+    }
+
+    section#Photo6 {
+        display: inline-block;
+        width: 50%;
+        border-right: 1pt solid #6aab73;
+        border-bottom: 1pt solid #6aab73;
+        border-radius: 60px;
+        padding: 2%;
+        margin-top: 10px;
+
+    }
+
+    section#Photo6 h2 {
+
+        text-align: center;
+        background-color: gray;
+        border-radius: 60px;
+        padding: 2%;
+        font-weight: bold;
+        font-variant: small-caps;
+
+    }

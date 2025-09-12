@@ -8,44 +8,116 @@ header, footer{
 
     font-family: "Rage Italic";
     font-size: large;
-    width: 60%;
+    width: 100%;
     background-color: forestgreen;
     color: black;
     border: 3px solid black;
     border-radius: 15px;
     padding: 1%;
 }
-nav {
+footer{
 
-    display: inline-block;
-    width: 100%;
-    border-radius: 15px;
-}
-main{
-
-    margin: 50px;
-    padding: 1%;
-
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
 
 }
-nav li
-{
+nav ul{
+    list-style-type: none;
+    text-align: center; /*teksti joondamine keskel*/
+    margin: 2%;
+    padding: 0;
+    background-color: darksalmon;
+}
+nav li {
     float: left;
     padding: 1%;
+}
+main {
+    margin: 50px;
+    padding:1%;
+}
+nav a:hover{ /*link fookuses*/
+    background-color: grey;
+}
+nav li a{
+    font-family: Georgia;
+    font-size: large;
+    text-decoration: none;
+    border-right: 1pt solid grey;
+    border-left: 1pt solid grey;
+    border-radius: 120px;
+    padding: 10px;
+}
+
+section#osa1
+{
+    display: inline-block;
+    width: 20%;
+    border-right: 1pt solid #6aab73;
+    border-bottom: 1pt solid #6aab73;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
 
 }
-nav a:hover
+section#osa1 h3
 {
-    background-color: grey;
+
+
+  text-align: center;
+    background-color: gray;
+    border-radius: 60px;
+    padding: 2%;
+    font-weight: bold;
+    font-variant: small-caps;
+
 }
-nav li a
+
+section#osa2
 {
-    text-decoration: none;
-    font-size: large;
-    border-right: solid grey;
-    border-left:1pt solid grey;
-    border-bottom: 1pt solid grey;
-    border-top: 1pt solid grey;
-    background-color: grey;
-    color: black;
+    display: inline-block;
+    width: 20%;
+    border-right: 1pt solid #6aab73;
+    border-bottom: 1pt solid #6aab73;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
+
 }
+section#osa2 h3
+{
+
+    text-align: center;
+    background-color: gray;
+    border-radius: 60px;
+    padding: 2%;
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+
+section#osa3
+{
+    display: inline-block;
+    width: 20%;
+    border-right: 1pt solid #6aab73;
+    border-bottom: 1pt solid #6aab73;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
+
+}
+section#osa3 h3
+{
+
+    text-align: center;
+    background-color: gray;
+    border-radius: 60px;
+    padding: 2%;
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+
