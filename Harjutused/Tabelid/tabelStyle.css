@@ -53,3 +53,59 @@
     text-align: center;
 }
 
+#keeruline2{
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    border-collapse: collapse; /*üks joon borderis*/
+}
+#keeruline2 td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+
+
+
+#keeruline2 tr:nth-child(1) td:nth-child(1){ /*Esimene rida*/
+
+    background-color: blue;
+}
+#keeruline2 tr:nth-child(1) td:nth-child(2){ /*Esimene rida 2 lahter*/
+
+    background-color: red;
+}
+#keeruline2 tr:nth-child(2) td:nth-child(1){ /*Esimene rida*/
+
+    background-color: green;
+}
+#keeruline2 tr:nth-child(2) td:nth-child(2){ /*Esimene rida*/
+
+    background-color: lightpink;
+}
+
+#keeruline2 tr:nth-child(2) td:nth-child(3){ /*Esimene rida*/
+
+    background-color: yellow;
+}
+
+#keeruline2 tr:nth-child(3) td:nth-child(1){ /*Esimene rida*/
+
+    background-color: cornflowerblue;
+}
+
+#keeruline2 tr:nth-child(3) td:nth-child(2){ /*Esimene rida*/
+
+    background-color: aquamarine;
+}
+
+#keeruline2 tr:nth-child(4) td:nth-child(1){ /*Esimene rida*/
+
+    background-color: darkcyan;
+}
+
+
+
+
