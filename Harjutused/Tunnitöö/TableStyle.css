@@ -1,0 +1,107 @@
+#üks{
+    width: 30%;
+    border: 1px solid black;
+    height: 10px;
+    border-collapse: separate; /*üks joon borderis*/
+    margin-left: 265px;
+}
+#üks td{
+    border: 1px solid black;
+
+}
+
+#üks tr:nth-child(1) td:nth-child(1){
+
+   text-align: center;
+}
+
+#üks tr:nth-child(1) td:nth-child(2){
+
+    text-align: center;
+}
+
+#üks tr:nth-child(1) td:nth-child(3){
+
+    text-align: center;
+}
+
+#üks tr:nth-child(2) td:nth-child(2){
+
+    text-align: right;
+}
+#üks tr:nth-child(2) td:nth-child(3){
+
+    text-align: right;
+}
+
+#üks tr:nth-child(3) td:nth-child(2){
+
+    text-align: right;
+}
+#üks tr:nth-child(3) td:nth-child(3){
+
+    text-align: right;
+}
+
+#üks tr:nth-child(4) td:nth-child(2){
+
+    text-align: right;
+}
+#üks tr:nth-child(4) td:nth-child(3){
+
+    text-align: right;
+}
+
+#üks tr:nth-child(5) td:nth-child(2){
+
+    text-align: right;
+}
+#üks tr:nth-child(5) td:nth-child(3){
+
+    text-align: right;
+}
+
+#kaks{
+    width: 17%;
+    border: 1px solid black;
+    height: 10px;
+    border-collapse: separate; /*üks joon borderis*/
+
+}
+
+#kaks td{
+    border: 1px solid black;
+
+}
+
+#kolm{
+    width: 8%;
+    border: 1px solid black;
+    height: 10px;
+    border-collapse: separate; /*üks joon borderis*/
+
+}
+
+#kolm td{
+    border: 1px solid black;
+
+}
+
+#neli{
+    width: 9%;
+    border: 3px solid black;
+    height: 10px;
+    border-collapse: separate; /*üks joon borderis*/
+
+
+}
+
+#neli td{
+    border: 1px solid black;
+
+
+}
+
+
+
+
