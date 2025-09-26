@@ -15,6 +15,56 @@ header, footer{
     border-radius: 15px;
     padding: 1%;
 }
+h2{
+
+    padding: 5%;
+
+
+
+}
+fieldset
+{
+    position: fixed;
+    top: 350px;
+
+}
+fieldset#part
+{
+    position: fixed;
+    top: 350px;
+    background-color: lightgreen;
+
+
+}
+
+fieldset#part1
+{
+    position: fixed;
+    top: 350px;
+    width: 50%;
+
+
+
+}
+legend
+{
+    font-family: "Rage Italic";
+    font-size: 50px;
+    background-color: seagreen;
+    border-radius: 15px;
+    color: black;
+
+}
+button
+{
+    font-family: "Rage Bold";
+    font-size: x-large;
+    border-radius: 15px;
+  background-color: white;
+
+}
+
+
 footer{
 
     position: fixed;
