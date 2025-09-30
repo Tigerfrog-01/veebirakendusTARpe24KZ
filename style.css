@@ -22,39 +22,7 @@ h2{
 
 
 }
-fieldset
-{
-    position: fixed;
-    top: 350px;
 
-}
-fieldset#part
-{
-    position: fixed;
-    top: 350px;
-    background-color: lightgreen;
-
-
-}
-
-fieldset#part1
-{
-    position: fixed;
-    top: 350px;
-    width: 50%;
-
-
-
-}
-legend
-{
-    font-family: "Rage Italic";
-    font-size: 50px;
-    background-color: seagreen;
-    border-radius: 15px;
-    color: black;
-
-}
 button
 {
     font-family: "Rage Bold";
@@ -170,4 +138,16 @@ section#osa3 h3
     font-variant: small-caps;
 
 }
+section#osa5
+{
+    display: inline-block;
+    width: 20%;
+    border-right: 10pt solid #6aab73;
+    border-bottom: 10pt solid #6aab73;
+    border-left: 3pt solid #6aab73;
+    border-top: 3pt solid #6aab73;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
 
+}

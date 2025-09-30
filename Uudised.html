@@ -11,37 +11,61 @@
 </body>
 </html>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="MediaStyle.css">
+<link rel="stylesheet" href="DropDownStyle.css">
+<link rel="stylesheet" href="Style2.css">
 
 <header>
     <h1>Kristopheri  Uudised</h1>
 </header>
 
 <nav>
-  <ul>
-    <li>
-      <a href="index.html">Kodu</a>
-    </li>
-    <li>
-      <a href ="Kontakt.html">Kontakt</a>
-    </li>
-    <li>
-      <a href ="Tööd.html">Tehtud Tööd</a>
-    </li>
-    <li>
-      <a href ="Uudised.html">Uudis</a>
-    </li>
-    <li>
-      <a href ="Meedia.html">Meedia</a>
-    </li>
+    <ul>
+        <li><a href="index.html">Kodu▼</a>
+            <ul class="dropdown">
 
-    <li>
-      <a href ="Meedia.html">Õpilasetööd</a>
-    </li>
+                <li><a href="Hobid.html">Hobid</a></li>
+            </ul>
 
-  </ul>
+        </li>
 
+        <li><a href="Kontakt.html">Kontakt</a></li>
+
+
+        <li>
+            <a href="Tööd.html">Tehtud Tööd ▼</a>
+            <ul class="dropdown">
+
+                <li><a href="Harjutused/tekstelementid.html">TekstElementid</a></li>
+
+                <li><a href="Harjutused/Tabelid/tabel.html">Tabelid</a></li>
+
+                <li><a href="Harjutused/MapAreaTest/Maal.html">MapArea</a></li>
+
+                <li><a href="Harjutused/Tunnitöö/TunniTöö.html">Tunnitöö</a></li>
+
+                <li><a href="Harjutused/Vormitoo/Peamenuu.html">Vormitoo</a></li>
+
+                <li><a href="Harjutused/Vormitoo/Peamenuu1.html">VormitooIlmaCss</a></li>
+
+                <li><a href="Harjutused/VormidJSSTöö/VormiTöö.html">VormidJSSTöö</a></li>
+            </ul>
+        </li>
+
+        <li><a href="Uudised.html">Uudis</a></li>
+        <li><a href="Meedia.html">Meedia▼</a>
+            <ul class="dropdown">
+
+                <li><a href="SuvalineFoto.html">RandomPhoto</a></li>
+                <li><a href="Youtube.html">Youtube lingid</a></li>
+                <li><a href="Muusika.html">Muusika</a></li>
+                <li><a href="Maps.html">Maps</a></li>
+            </ul>
+        </li>
+        <li><a href="Õpilasetööd.html">Õpilasetööd</a></li>
+    </ul>
 </nav>
+
 
 <fieldset id="part1">
   <legend>Uudised</legend>
@@ -49,9 +73,14 @@
 
 
   <h2>
-    <img src="BlackCat.jpg" alt="Must Kass" height="250" width="250"/>
+    <img src="Media/BlackCat.jpg" alt="Must Kass" height="250" width="250"/>
   </h2>
+    <h2>26.09 Lisasin hoverboardi,inspiratsioon:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dmFC1e_CUAQ?si=tWN4thg76Xtxsc_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+    <h2>
+        Hobid said uuenduse! 26.09
+        </h2>
 
 </fieldset>
 

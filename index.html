@@ -2,17 +2,15 @@
 <html lang="et">
 <head>
     <meta charset="UTF-8">
-
+    <link rel="stylesheet" type="x-icon" href="toonekurg.png">
     <meta name="description" content="Minu veebisait">
-
-
-
-
-
 
     <title>Kristopher Žuravljov</title>
 
    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="DropDownStyle.css">
+    <link rel="stylesheet" href="Style2.css">
+
 </head>
 <body>
 
@@ -23,49 +21,66 @@
 <!--navigeerimis menüü -->
 <nav>
     <ul>
-        <li>
-            <a href="index.html">Kodu</a>
-        </li>
-        <li>
-            <a href ="Kontakt.html">Kontakt</a>
-        </li>
-        <li>
-            <a href ="Tööd.html">Tehtud Tööd</a>
-        </li>
-        <li>
-            <a href ="Uudised.html">Uudis</a>
+        <li><a href="index.html">Kodu▼</a>
+            <ul class="dropdown">
+
+                <li><a href="Hobid.html">Hobid</a></li>
+            </ul>
+
         </li>
 
-        <li>
-            <a href ="Meedia.html">Meedia</a>
-        </li>
+        <li><a href="Kontakt.html">Kontakt</a></li>
+
 
         <li>
-            <a href ="Õpilasetööd.html">Õpilasetööd</a>
+            <a href="Tööd.html">Tehtud Tööd ▼</a>
+            <ul class="dropdown">
+
+                <li><a href="Harjutused/tekstelementid.html">TekstElementid</a></li>
+
+                <li><a href="Harjutused/Tabelid/tabel.html">Tabelid</a></li>
+
+                <li><a href="Harjutused/MapAreaTest/Maal.html">MapArea</a></li>
+
+                <li><a href="Harjutused/Tunnitöö/TunniTöö.html">Tunnitöö</a></li>
+
+                <li><a href="Harjutused/Vormitoo/Peamenuu.html">Vormitoo</a></li>
+
+                <li><a href="Harjutused/Vormitoo/Peamenuu1.html">VormitooIlmaCss</a></li>
+
+                <li><a href="Harjutused/VormidJSSTöö/VormiTöö.html">VormidJSSTöö</a></li>
+            </ul>
         </li>
 
+        <li><a href="Uudised.html">Uudis</a></li>
+        <li><a href="Meedia.html">Meedia▼</a>
+            <ul class="dropdown">
+
+                <li><a href="SuvalineFoto.html">RandomPhoto</a></li>
+                <li><a href="Youtube.html">Youtube lingid</a></li>
+                <li><a href="Muusika.html">Muusika</a></li>
+                <li><a href="Maps.html">Maps</a></li>
+            </ul>
+        </li>
+        <li><a href="Õpilasetööd.html">Õpilasetööd</a></li>
     </ul>
-
-
 </nav>
 
+<fieldset>
+    <legend>Kodu</legend>
+    <h2>
+        Tere tulemast peamenüüse
+        <br>
+        Liiguta oma hiir Kodu peale, et saada rohkem informatsiooni
+        <br>
+        või vali menüüst teine valik mis vastab sinu vajadusele
+        </h2>
+    </fieldset>
 
 <main>
 
 
-<fieldset>
-<legend>Hobid</legend>
 
-
-
-    <h2>
-        Ajaloo tundmine ja kogumine(näiteks müntikogu),
-        Jõusaal,
-        Reisimine ja kultuuri avastamine
-    </h2>
-
-
-</fieldset>
 
 
 </main>

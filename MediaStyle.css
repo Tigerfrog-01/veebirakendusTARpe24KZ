@@ -11,13 +11,9 @@ header, footer{
     border-radius: 15px;
     padding: 1%;
 }
-footer{
-
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-
+footer {
+    position: static;
+    right: auto;
 }
 nav ul{
     list-style-type: none;

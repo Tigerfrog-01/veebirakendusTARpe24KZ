@@ -1,0 +1,32 @@
+fieldset
+{
+
+    top: 350px;
+
+}
+fieldset#part
+{
+
+    top: 350px;
+    background-color: lightgreen;
+
+
+}
+
+fieldset#part1
+{
+    top: 350px;
+    width: 50%;
+
+
+
+}
+legend
+{
+    font-family: "Rage Italic";
+    font-size: 50px;
+    background-color: seagreen;
+    border-radius: 15px;
+    color: black;
+
+}

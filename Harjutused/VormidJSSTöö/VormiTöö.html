@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="vormScript.js"></script>
+</head>
+<body>
+<h2>ÕPILASE REGISTREERIMISVORM</h2>
+<fieldset style="width: 60%;">
+  <legend>Isikuandmed</legend>
+
+  <table border="1" width="50%">
+
+<tr>
+
+  <td>
+    <label for="Eesnimi">Sisesta oma Eesnimi</label>
+  </td>
+
+  <td>
+    <input type="text" placeholder="Eesnimi" id="Eesnimi" oninput="Nimi()">
+
+
+  </td>
+
+  <td>
+    <div id="vastus">Vastusekoht</div>
+  </td>
+
+</tr>
+
+    <tr>
+
+      <td>
+        <label for="PereKonnaNimi">Sisesta oma perekonnanimi</label>
+      </td>
+
+      <td>
+        <input type="text" placeholder="Perekonnanimi" id="PereKonnaNimi" oninput="PereKonnaNimi()">
+      </td>
+
+      <td>
+        <div id="vastus1">Vastusekoht</div>
+      </td>
+
+
+
+
+  </table>
+    <br>
+<table border="1" width="50%">
+    <tr>
+
+        <td>
+            <label for="Kuupaev">Sisesta sünnikuupäev</label>
+        </td>
+
+        <td>
+            <input type="date" placeholder="Kuupäev" id="Kuupaev" oninput="Kuupaev()" oninput="Kuupaev()">
+        </td>
+        <td>
+            <div id="vastus11">Vastusekoht</div>
+        </td>
+
+      </tr>
+  </table>
+    <br>
+
+    <table border="1" width="50%">
+    <tr>
+
+      <td>Mis on su sugu</td>
+      <td>
+        <input type="radio" name="sugu" id="Mees" value="M" onclick="radioValik()">
+        <label for="Mees">Mees</label>
+        <br>
+        <input type="radio" name="sugu" id="Naine" value="N" onclick="radioValik()">
+        <label for="Naine">Naine</label>
+        <br>
+        <input type="radio" name="sugu" id="Muu" value="MU" onclick="radioValik()">
+        <label for="Muu">Muu</label>
+
+      </td>
+      <td>
+        <img src="" id="pilt">
+        <div id="vastus3"></div>
+      </td>
+
+    </tr>
+
+
+
+
+
+  </table>
+
+</fieldset>
+
+<fieldset style="width: 60%;">
+  <legend>Kontakt</legend>
+
+  <table border="1" width="50%">
+
+    <tr>
+
+      <td>
+        <label for="Email">Sisesta oma E-post</label>
+      </td>
+
+      <td>
+        <input type="text" placeholder="Email" id="Email" oninput="Em()">
+      </td>
+
+      <td>
+        <div id="vastus5">Vastusekoht</div>
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td>
+        <label for="Telefoninumber">Sisesta oma telefoninumber</label>
+      </td>
+
+      <td>
+        <input type="text" placeholder="Telefoninumber" id="Telefoninumber" oninput="Tel()">
+      </td>
+
+      <td>
+        <div id="vastus6">Vastusekoht</div>
+      </td>
+
+    </tr>
+    <tr>
+
+      <td>
+        <label for="Aadress">Sisesta oma Aadress</label>
+      </td>
+
+      <td>
+        <input type="text" placeholder="Tänav,Maja,Korter" id="Aadress" oninput="Adr()">
+      </td>
+
+      <td>
+        <div id="vastus7">Vastusekoht</div>
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td>
+        <label for="Linn">Sisesta mis linnas/asulas elad</label>
+      </td>
+
+      <td>
+        <input type="text" placeholder="Nt Tallinn" id="Linn" oninput="Lin()">
+      </td>
+
+      <td>
+        <div id="vastus8">Vastusekoht</div>
+      </td>
+
+    </tr>
+    <tr>
+
+      <td>
+        <label for="Post">Sisesta oma postiindeks</label>
+      </td>
+
+      <td>
+        <input type="text" placeholder="Nt 10111" id="Post" oninput="Post()">
+      </td>
+
+      <td>
+        <div id="vastus9">Vastusekoht</div>
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td>
+        <label>Riik:</label>
+      </td>
+
+      <td>
+        Eesti
+      </td>
+
+
+
+    </tr>
+
+
+  </table>
+
+
+  </fieldset>
+<fieldset style="width: 50%;">
+  <legend>Muu info</legend>
+    <table border="1" width="50%">
+        <tr>
+
+            <td>Mis on su hobid</td>
+            <td>
+                <input type="checkbox" name="hobi" id="Joonistamine" value="J">
+                <label for="Joonistamine">Joonistamine</label>
+                <br>
+                <input type="checkbox" name="hobi" id="Laulmine" value="L">
+                <label for="Laulmine">Laulmine</label>
+                <br>
+                <input type="checkbox" name="hobi" id="Tantsimine" value="T">
+                <label for="Tantsimine">Tantsimine</label>
+                <br>
+                <input type="checkbox" name="hobi" id="Kokkamine" value="K" >
+                <label for="Kokkamine">Kokkamine</label>
+                <br>
+                <input type="text" name="hobi" id="Muu1" placeholder="Nt: Korvpall,Söömine">
+                <label for="Muu1">Muu</label>
+
+            </td>
+            <td>
+                <img src="" id="pilt1">
+                <div id="vastus10"></div>
+            </td>
+
+        </tr>
+    </table>
+    <br>
+
+    <table border="1" width="50%">
+        <tr>
+
+            <td>
+                <label for="Veebsait">Sisesta oma isiklik veebisait</label>
+            </td>
+
+            <td>
+                <input type="text" placeholder="Nt: https://minuleht.ee" id="Veebsait" oninput="Veeb()">
+            </td>
+
+            <td>
+                <div id="vastus12">Vastusekoht</div>
+            </td>
+
+        </tr>
+    </table>
+
+
+    <br>
+    <table border="1" width="50%">
+
+    <tr>
+        <td>
+            <label for="varv">Eelistatud teemavärv(valikuline):</label>
+        </td>
+
+        <td>
+            <input type="color" id="varv" onchange="varvValik()">
+            <input type="button" value="Värvi" onclick="varvValik()">
+        </td>
+
+        <td id="vastus13" width="100">
+
+        </td>
+    </tr>
+</table>
+    <br>
+    <table border="1" width="50%">
+        <tr>
+
+            <td>
+                <label for="Fail">Dokumendid(PDF või Pilt</label>
+            </td>
+
+            <td>
+                <input type="file"  id="Fail" >
+            </td>
+
+
+
+        </tr>
+
+    </table>
+
+</fieldset>
+<fieldset>
+    <legend>Nõustumine</legend>
+    <table border="1" width="20%">
+        <tr>
+
+            <td>
+                <label for="Nõustumine">Kinnitan,et esitatud andmed on õiged ja luban nende
+                    <br> töötlemist vastavalt kooli tingimustele</label>
+            </td>
+
+            <td>
+                <input type="checkbox" id="Nõustumine" >
+            </td>
+
+
+
+        </tr>
+
+    </table>
+
+
+
+</fieldset>
+<br>
+
+<button type="submit">
+    Saada
+</button>
+<button onclick="location.reload()">Tühjenda</button>
+</body>
+</html>

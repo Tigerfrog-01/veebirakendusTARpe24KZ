@@ -13,6 +13,8 @@
     <title>Kristopher Žuravljov</title>
 
    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="DropDownStyle.css">
+    <link rel="stylesheet" href="Style2.css">
 </head>
 <body>
 
@@ -23,27 +25,28 @@
 <!--navigeerimis menüü -->
 <nav>
     <ul>
-        <li>
-            <a href="index.html">Kodu</a>
-        </li>
-        <li>
-            <a href ="Kontakt.html">Kontakt</a>
-        </li>
-        <li>
-            <a href ="Tööd.html">Tehtud Tööd</a>
-        </li>
-        <li>
-            <a href ="Uudised.html">Uudis</a>
-        </li>
-        <li>
-            <a href ="Meedia.html">Meedia</a>
-        </li>
-
+        <li><a href="index.html">Kodu</a></li>
+        <li><a href="Kontakt.html">Kontakt</a></li>
 
         <li>
-            <a href ="Õpilasetööd.html">Õpilasetööd</a>
+            <a href="Tööd.html">Tehtud Tööd ▼</a>
+            <ul class="dropdown">
+
+                <li><a href="Harjutused/tekstelementid.html">TekstElementid</a></li>
+
+                <li><a href="Harjutused/Tabelid/tabel.html">Tabelid</a></li>
+
+                <li><a href="Harjutused/MapAreaTest/Maal.html">MapArea</a></li>
+
+                <li><a href="Harjutused/Vormitoo/Peamenuu.html">Vormitoo</a></li>
+
+                <li><a href="Harjutused/Vormitoo/Peamenuu1.html">VormitooIlmaCss</a></li>
+            </ul>
         </li>
 
+        <li><a href="Uudised.html">Uudis</a></li>
+        <li><a href="Meedia.html">Meedia</a></li>
+        <li><a href="Õpilasetööd.html">Õpilasetööd</a></li>
     </ul>
 </nav>
 

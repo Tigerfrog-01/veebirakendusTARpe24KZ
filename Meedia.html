@@ -12,6 +12,7 @@
 </html>
 
 <link rel="stylesheet" href="MediaStyle.css">
+<link rel="stylesheet" href="DropDownStyle.css">
 
 <header>
     <h1>Kristopheri  Meedia</h1>
@@ -19,65 +20,64 @@
 
 <nav>
     <ul>
-        <li>
-            <a href="index.html">Kodu</a>
-        </li>
-        <li>
-            <a href ="Kontakt.html">Kontakt</a>
-        </li>
-        <li>
-            <a href ="Tööd.html">Tehtud Tööd</a>
-        </li>
-        <li>
-            <a href ="Uudised.html">Uudis</a>
-        </li>
-        <li>
-            <a href ="Meedia.html">Meedia</a>
+        <li><a href="index.html">Kodu▼</a>
+            <ul class="dropdown">
+
+                <li><a href="Hobid.html">Hobid</a></li>
+            </ul>
+
         </li>
 
+        <li><a href="Kontakt.html">Kontakt</a></li>
+
+
         <li>
-            <a href ="Õpilasetööd.html">Õpilasetööd</a>
+            <a href="Tööd.html">Tehtud Tööd ▼</a>
+            <ul class="dropdown">
+
+                <li><a href="Harjutused/tekstelementid.html">TekstElementid</a></li>
+
+                <li><a href="Harjutused/Tabelid/tabel.html">Tabelid</a></li>
+
+                <li><a href="Harjutused/MapAreaTest/Maal.html">MapArea</a></li>
+
+                <li><a href="Harjutused/Tunnitöö/TunniTöö.html">Tunnitöö</a></li>
+
+                <li><a href="Harjutused/Vormitoo/Peamenuu.html">Vormitoo</a></li>
+
+                <li><a href="Harjutused/Vormitoo/Peamenuu1.html">VormitooIlmaCss</a></li>
+
+                <li><a href="Harjutused/VormidJSSTöö/VormiTöö.html">VormidJSSTöö</a></li>
+            </ul>
         </li>
 
+        <li><a href="Uudised.html">Uudis</a></li>
+        <li><a href="Meedia.html">Meedia▼</a>
+            <ul class="dropdown">
+
+                <li><a href="SuvalineFoto.html">RandomPhoto</a></li>
+                <li><a href="Youtube.html">Youtube lingid</a></li>
+                <li><a href="Muusika.html">Muusika</a></li>
+                <li><a href="Maps.html">Maps</a></li>
+            </ul>
+        </li>
+        <li><a href="Õpilasetööd.html">Õpilasetööd</a></li>
     </ul>
-
 </nav>
+
 <main>
 <section id = "Photo">
 
-    <h2>Napoleon Bonaparte</h2>
+    <h2>Tere tulemast meediase!, vali loetelus olevad valikud mis vastab sinu vajadusele</h2>
     <img src="Media/Napoleon.jpg" alt="Napoleon logo" height="500" width="500"/>
 
 
 </section>
 
-    <section id = "Photo1">
-
-        <h2>Random Photos</h2>
-        <img src="https://picsum.photos/200/300?random=1"alt="Random Photo1" height="500" width="500"/>
-        <img src="https://picsum.photos/200/300?random=2"alt="Random Photo2" height="500" width="500"/>
-        <img src="https://picsum.photos/200/300?random=3"alt="Random Photo3" height="500" width="500"/>
-        <img src="https://picsum.photos/200/300?random=4"alt="Random Photo4" height="500" width="500"/>
-        <img src="https://picsum.photos/200/300?random=5"alt="Random Photo5" height="500" width="500"/>
-        <img src="https://picsum.photos/200/300?random=6"alt="Random Photo6" height="500" width="500"/>
-    </section>
 
 
 
 
-
-
-    <section>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/1VeaUHDowfA?si=BSS_qFavoB4nzZlP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    </section>
-
-    <section>
-        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/66DEF58Vwxf7NKYXnlN53t?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </section>
-    <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d603.9633359605633!2d24.718235367929264!3d59.39166354726541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2see!4v1758111898717!5m2!1sen!2see" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
 
 </main>
 <footer>
