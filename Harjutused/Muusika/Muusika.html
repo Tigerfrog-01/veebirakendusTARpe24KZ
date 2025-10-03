@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Muusika küstilus</title>
+    <script src="MuusikaScript.js"></script>
+</head>
+<body>
+<h1>Muusika küsitlus</h1>
+
+<form action="">
+    <fieldset>
+        <legend>   Millised muusikud/ansambleid sa tead?</legend>
+
+         <input type="checkbox" name="ansamble" id="Abba" value="ABBA" onchange="valiAnsamble()">
+        <label for="abba">ABBA</label>
+        <br>
+
+        <input type="checkbox" name="ansamble" id="Ramstein" value="RAMSTEIN" onchange="valiAnsamble()">
+      <label for="ramstein">Ramstein</label>
+        <br>
+        <input type="checkbox" name="ansamble" id="Frank" value="FRANK" onchange="valiAnsamble()">
+        <label for="Frank">Frank Sinatra</label>
+        <br>
+        <input type="checkbox" name="ansamble" id="Miss" value="MISS" onchange="valiAnsamble()">
+        <label for="Miss">Miss Construction</label>
+
+
+        <div id="Vastus"></div>
+
+    </fieldset>
+
+   <fieldset>
+       <legend>Sinu arvamus muusika kuulamine koolis</legend>
+
+    <input type="text" id="Arvamus" name="Arvamus" onchange="arvamus()">
+       <div id="vastus2"></div>
+
+        </fieldset>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Mitu tundi sa kuulad muusikat päevas</legend>
+
+        <input type="number"  name="tund" id="tund" value="TUND" onchange="Tund()">
+        <div id="vastus3"></div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Kas sa kuulad raadiot?</legend>
+
+        <label>
+        <input type="radio"  name="Vastus" id="Jah" value="Jah" onclick=Raadio();>
+            Jah
+         </label>
+
+        <label>
+        <input type="radio"  name="Vastus" id="Ei" value="Ei" onclick="Raadio()">
+            Ei
+
+
+         </label>
+        <div id="vastus4"></div>
+
+
+
+
+
+        <br>
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Milliseid raadiojaamu oskad nimetada</legend>
+
+        <input type="text" id="Nimetamine" name="Nimetamine" oninput="Nimeta()">
+
+        <div id="vastus5"></div>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Millist muusikad sa kõige rohkem kuulad?</legend>
+
+        <label>
+
+        <input type="radio"  name="Milline" id="Rokk" value="Milline" onclick="Kuula()" >
+            Rokk
+
+         </label>
+
+
+        <label>
+
+        <input type="radio"  name="Milline" id="Jazz" value="Milline" onclick="Kuula()" >
+            Jazz
+
+        </label>
+
+        <label>
+        <input type="radio"  name="Milline" id="Hip" value="Milline" >
+            Hip-Hop
+        </label>
+
+        <label>
+        <input type="radio"  name="Milline" id="Klassika" value="Milline" onclick="Kuula()" >
+            Klassika
+        </label>
+
+        <label>
+        <input type="radio"  name="Milline" id="Rapp" value="Milline" onclick="Kuula()">
+            Räpp
+        </label>
+
+        <label>
+        <input type="radio"  name="Milline" id="Bluus" value="Milline" onclick="Kuula()">
+            Bluus
+        </label>
+
+        <div id="vastus6"></div>
+
+
+    </fieldset>
+
+    <br>
+    <button type="button" onclick="Kokkuvotte()">Avalda</button>
+    <button onclick="location.reload()">Puhasta</button>
+
+    <div id="Kokkuvote" style="margin-top:20px; border:1px solid black; padding:10px;"></div>
+</form>
+</body>
+</html>

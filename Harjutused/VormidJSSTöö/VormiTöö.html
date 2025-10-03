@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <title>Title</title>
   <script src="vormScript.js"></script>
+    <link rel="stylesheet" href="VormiCSS.css">
 </head>
 <body>
 <h2>ÕPILASE REGISTREERIMISVORM</h2>
 <fieldset style="width: 60%;">
+
   <legend>Isikuandmed</legend>
 
-  <table border="1" width="50%">
+  <table class="one">
 
 <tr>
 
@@ -49,7 +51,7 @@
 
   </table>
     <br>
-<table border="1" width="50%">
+<table class="one">
     <tr>
 
         <td>
@@ -57,7 +59,7 @@
         </td>
 
         <td>
-            <input type="date" placeholder="Kuupäev" id="Kuupaev" oninput="Kuupaev()" oninput="Kuupaev()">
+            <input type="date"  id="Kuupaev" oninput="Kuupaev()">
         </td>
         <td>
             <div id="vastus11">Vastusekoht</div>
@@ -67,7 +69,7 @@
   </table>
     <br>
 
-    <table border="1" width="50%">
+    <table class="one">
     <tr>
 
       <td>Mis on su sugu</td>
@@ -83,7 +85,7 @@
 
       </td>
       <td>
-        <img src="" id="pilt">
+          <img src="Meedia" id="pilt">
         <div id="vastus3"></div>
       </td>
 
@@ -100,7 +102,7 @@
 <fieldset style="width: 60%;">
   <legend>Kontakt</legend>
 
-  <table border="1" width="50%">
+  <table class="one">
 
     <tr>
 
@@ -201,7 +203,7 @@
   </fieldset>
 <fieldset style="width: 50%;">
   <legend>Muu info</legend>
-    <table border="1" width="50%">
+    <table class="one">
         <tr>
 
             <td>Mis on su hobid</td>
@@ -222,16 +224,13 @@
                 <label for="Muu1">Muu</label>
 
             </td>
-            <td>
-                <img src="" id="pilt1">
-                <div id="vastus10"></div>
-            </td>
+
 
         </tr>
     </table>
     <br>
 
-    <table border="1" width="50%">
+    <table>
         <tr>
 
             <td>
@@ -251,7 +250,7 @@
 
 
     <br>
-    <table border="1" width="50%">
+    <table class="one">
 
     <tr>
         <td>
@@ -263,13 +262,13 @@
             <input type="button" value="Värvi" onclick="varvValik()">
         </td>
 
-        <td id="vastus13" width="100">
+        <td id="vastus13" >
 
         </td>
     </tr>
 </table>
     <br>
-    <table border="1" width="50%">
+    <table class="one">
         <tr>
 
             <td>
@@ -289,7 +288,7 @@
 </fieldset>
 <fieldset>
     <legend>Nõustumine</legend>
-    <table border="1" width="20%">
+    <table class="two">
         <tr>
 
             <td>

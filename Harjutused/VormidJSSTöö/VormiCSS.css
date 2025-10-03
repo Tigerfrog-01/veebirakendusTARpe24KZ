@@ -1,0 +1,28 @@
+.one
+{
+    width: 50%;
+    border: 1px solid black;
+
+
+
+}
+.one th,
+.one td {
+    border: 1px solid black;
+    padding: 8px;
+
+}
+.two
+{
+    width: 20%;
+    border: 1px solid black;
+
+
+
+}
+.two th,
+.two td {
+    border: 1px solid black;
+    padding: 8px;
+
+}
