@@ -10,16 +10,67 @@
    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="DropDownStyle.css">
     <link rel="stylesheet" href="Style2.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js" integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#flip").click(function(){
+                $("#panel").slideToggle("slow");
+            });
+        });
+        $(document).ready(function(){
+            $("#flip1").click(function(){
+                $("#panel1").slideToggle("slow");
+            });
+        });
+        function start(){
+
+            $('#pilt').draggable();
+            $('#kirjeldus').mouseenter(red);
+            $('#kirjeldus').mouseleave(must);
+        }
+        function red(){
+            $('#kirjeldus').css('color', 'red');
+        }
+        function must(){
+            $('#kirjeldus').css('color', 'black');
+        }
+
+        $(document).ready(function() {
+            $("#pilt").mouseup(function() {
+                var plane = $(this);
+                var position = plane.offset();
+                var width = plane.width();
+                var height = plane.height();
+
+                plane.remove();
+                $("body").append('<img src="boom.png" alt="boom" width="' + width + '" height="' + height + '" style="position:absolute; top:' + position.top + 'px; left:' + position.left + 'px;">');
+
+                alert("Oih!! Lennukiga juhtus õnnetus!");
+
+
+            });
+        });
+
+
+
+
+    </script>
+
 
 </head>
-<body>
+<body onload="start()">
 
 <!-- HTML 5 semantilised elemendid-->
 <header>
     <h1>Kristopheri veebirakenduse leht</h1>
 </header>
 <!--navigeerimis menüü -->
-<nav>
+
+
+<div id="flip">Peida/Näida menüü</div>
+<nav id="panel">
     <ul>
         <li><a href="index.html">Kodu▼</a>
             <ul class="dropdown">
@@ -68,16 +119,37 @@
     </ul>
 </nav>
 
-<fieldset>
+<div id="flip1">Peida/Näida Infot</div>
+<fieldset id="panel1">
     <legend>Kodu</legend>
-    <h2>
+    <h2 id="info">
         Tere tulemast peamenüüse
         <br>
         Liiguta oma hiir Kodu peale, et saada rohkem informatsiooni
         <br>
         või vali menüüst teine valik mis vastab sinu vajadusele
+<br>
+        <img src="plane.png" alt="plane" id="pilt" width=200 >
+<br>
+        <div id="kirjeldus">Proovi viia lennuk Lennujaama</div>
+<br>
+        <img src="runway.png" alt="runaway" id="pilt1" width=200>
         </h2>
+<br>
+    <input type="button" value="paremale" onclick="$('div#kirjeldus').animate({left:'500px'}, 1000);" />
+    <input type="button" value="vasakule" onclick="$('div#kirjeldus').animate({left:'0px'}, 1000);"/>
+
+    <p >Kliki lennuki peale palun!</p>
+
+
     </fieldset>
+
+
+
+
+
+
+
 
 <main>
 
