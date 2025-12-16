@@ -1,0 +1,31 @@
+body
+{
+    background: #B8E9B6;
+}
+div
+{
+    padding-left: 700px;
+
+}
+canvas#joulukaart
+{
+    border-radius: 10px;
+    border: 5px white solid;
+}
+div#nuppud
+{
+    border: 2px #94BD93 solid;
+    padding-left: 1px;
+    background-color: #A0CE9E;
+    width: 405px;
+}
+h3,h1
+{
+    color: white;
+
+}
+button,input
+{
+    border-radius: 10px;
+    color: black;
+}

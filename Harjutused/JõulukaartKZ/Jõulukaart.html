@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Jõulukaart</title>
+  <link rel="stylesheet" href="Jõulukaart.css">
+ <script src="Jõulukaart.js"></script>
+<script src="Snowfall.js"></script>
+<script src="Jõuluehe.js"></script>
+
+</head>
+
+<body>
+<div>
+<h1>Jõulukaart</h1>
+
+<canvas id="joulukaart" width="400" height="600"></canvas>
+
+<div id="nuppud">
+<h3>NP! vali asju ülevalt alla järjekorras, muidu ei ühtlu(välja arvatud animatsioon, see kuvab kõik esemed)</h3>
+<h3>Aeg</h3>
+<input type="button" value="Päev" onclick="day()">
+<input type="button" value="Öö" onclick="night()">
+<br>
+<h3>Tekst</h3>
+<input type="button" value="Tekst" onclick="text()">
+<br>
+<h3>Taust</h3>
+<input type="button" value="Muru" onclick="grass()">
+<input type="button" value="lumi" onclick="snow()">
+<br>
+<h3>Rekvisiit </h3>
+<input type="button" value="Jõulupuu" onclick="kolmnurk()">
+<input type="button" value="Põder" onclick="Poder()">
+<br>
+<h3>Kaunistus</h3>
+<input type="button" value="jõuluehted" onclick="Jouluehe()">
+<br>
+<h3>Animatsioon</h3>
+<input type="button" value="Lumi lennagu nüüd!!! öö/Muru" onclick="createSnow(100); snowFallDay();">
+<input type="button" value="Lumi lennagu nüüd!!! päev/Muru" onclick="createSnow(100); snowFall1();">
+<br>
+<input type="button" value="Lumi lennagu nüüd!!! öö/Lumi" onclick="createSnow(100); snowFall2();">
+<input type="button" value="Lumi lennagu nüüd!!! päev/Lumi" onclick="createSnow(100); snowFall3();">
+<br>
+<h3>Haldamine</h3>
+<button onClick="window.location.reload();">Reset</button>
+<br>
+<h3>Info: Kui vahetad animatsiooni, palun vajuta Reset , muidu animatsioon muutub kiiremaks ja see voib tekkida teile ebamugavust</h3>
+</div>
+
+</div>
+</body>
+
+</html>
